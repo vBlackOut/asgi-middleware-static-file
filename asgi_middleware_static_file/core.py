@@ -17,7 +17,7 @@ class ASGIMiddlewarePath:
     def __init__(self, path: Union[PathLike, str]):
         if not isinstance(path, Path):
             print(path)
-            path = Path(path)
+            path = Path(path[0])
 
         self.path = path.resolve()
         self.path_as_str = self.path.as_posix()
