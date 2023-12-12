@@ -73,7 +73,7 @@ INFO:     127.0.0.1:54529 - "GET /static/DEMO HTTP/1.1" 200 OK
 
 ### Code
 
-[`/example_django/asgi.py`](https://github.com/rexzhang/asgi-middleware-static-file/blob/main/example/example_django/example_django/asgi.py)
+[`/example_django/asgi.py`](https://github.com/vBlackOut/asgi-middleware-static-file/blob/main/example/example_django/example_django/asgi.py)
 
 ### Collect static file
 
