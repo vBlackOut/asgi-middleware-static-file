@@ -16,6 +16,7 @@ _FILE_BLOCK_SIZE = 64 * 1024
 class ASGIMiddlewarePath:
     def __init__(self, path: Union[PathLike, str]):
         if not isinstance(path, Path):
+            print(path)
             path = Path(path)
 
         self.path = path.resolve()
